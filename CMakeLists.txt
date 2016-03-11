@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
 ##################################
-## General Parameter
+## General Parameters
 ##################################
 
 ## Set Variables
@@ -24,6 +24,8 @@ INCLUDE_DIRECTORIES(
 
 ## Set flag to C++ 11
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+
 
 ## GTest
 ## Enable ExternalProject CMake module and set default root directory
