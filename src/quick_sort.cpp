@@ -3,9 +3,11 @@
 
 
 int QuickSort::Partition( Array& elements, int left, int right ){
+
 	int pivot = elements[right];
 
 	int index = left;
+	    // index points to the first element that bigger than pivot
 
 	for ( int i = index; i < right; ++i ){
 		if ( elements[i] <= pivot ){
@@ -34,3 +36,4 @@ void QuickSort::ToSort( Array& elements, int left, int right ){
 void QuickSort::operator()( Array& elements ){
 	ToSort( elements, 0, elements.size() - 1);
 }
+

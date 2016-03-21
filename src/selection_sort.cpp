@@ -18,3 +18,4 @@ void SelectionSort::operator()( Array& elements ){
 	}
 	
 }
+

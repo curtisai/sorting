@@ -19,3 +19,4 @@ void InsertionSort::operator()( Array& elements ){
 	}	
 }
 
+
